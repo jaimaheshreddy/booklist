@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="C:\Users\maheshreddy.obula\Downloads\bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            My<span class="text-primary">Book</span>list
+        </h1>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input id="title" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input id="author" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN</label>
+                <input id="isbn" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-2">Submit</button>
+        </form>
+        <table class="table table-stripped mt-5">
+            <thead>
+                
+                    <td>Title</td>
+                    <td>Author</td>
+                    <td>ISBN</td>
+                    <td></td>
+                
+            </thead>
+            <tbody id="book-list">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
